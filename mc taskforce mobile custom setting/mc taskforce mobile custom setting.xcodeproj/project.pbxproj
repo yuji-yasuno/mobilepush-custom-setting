@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38691CFC1C4BBE3300ECFBDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38691CFB1C4BBE3300ECFBDD /* AppDelegate.swift */; };
+		38691CFE1C4BBE3300ECFBDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38691CFD1C4BBE3300ECFBDD /* ViewController.swift */; };
+		38691D011C4BBE3300ECFBDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38691CFF1C4BBE3300ECFBDD /* Main.storyboard */; };
+		38691D031C4BBE3300ECFBDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38691D021C4BBE3300ECFBDD /* Assets.xcassets */; };
+		38691D061C4BBE3300ECFBDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38691D041C4BBE3300ECFBDD /* LaunchScreen.storyboard */; };
+		38691D191C4BBE4800ECFBDD /* libJB4ASDK-4.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38691D171C4BBE4800ECFBDD /* libJB4ASDK-4.0.3.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38691CF81C4BBE3300ECFBDD /* mc taskforce mobile custom setting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mc taskforce mobile custom setting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38691CFB1C4BBE3300ECFBDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38691CFD1C4BBE3300ECFBDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38691D001C4BBE3300ECFBDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38691D021C4BBE3300ECFBDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38691D051C4BBE3300ECFBDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38691D071C4BBE3300ECFBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38691D0D1C4BBE4800ECFBDD /* ETGenericUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETGenericUpdate.h; sourceTree = "<group>"; };
+		38691D0E1C4BBE4800ECFBDD /* ETKeyValueStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETKeyValueStore.h; sourceTree = "<group>"; };
+		38691D0F1C4BBE4800ECFBDD /* ETLandingPagePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETLandingPagePresenter.h; sourceTree = "<group>"; };
+		38691D101C4BBE4800ECFBDD /* ETLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETLocationManager.h; sourceTree = "<group>"; };
+		38691D111C4BBE4800ECFBDD /* ETLocationUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETLocationUpdate.h; sourceTree = "<group>"; };
+		38691D121C4BBE4800ECFBDD /* ETMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMessage.h; sourceTree = "<group>"; };
+		38691D131C4BBE4800ECFBDD /* ETPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPush.h; sourceTree = "<group>"; };
+		38691D141C4BBE4800ECFBDD /* ETRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETRegion.h; sourceTree = "<group>"; };
+		38691D151C4BBE4800ECFBDD /* ETSqliteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETSqliteHelper.h; sourceTree = "<group>"; };
+		38691D161C4BBE4800ECFBDD /* ExactTargetEnhancedPushDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExactTargetEnhancedPushDataSource.h; sourceTree = "<group>"; };
+		38691D171C4BBE4800ECFBDD /* libJB4ASDK-4.0.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libJB4ASDK-4.0.3.a"; sourceTree = "<group>"; };
+		38691D181C4BBE4800ECFBDD /* PushConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushConstants.h; sourceTree = "<group>"; };
+		38691D1B1C4BC08700ECFBDD /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38691CF51C4BBE3300ECFBDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38691D191C4BBE4800ECFBDD /* libJB4ASDK-4.0.3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38691CEF1C4BBE3300ECFBDD = {
+			isa = PBXGroup;
+			children = (
+				38691CFA1C4BBE3300ECFBDD /* mc taskforce mobile custom setting */,
+				38691CF91C4BBE3300ECFBDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38691CF91C4BBE3300ECFBDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38691CF81C4BBE3300ECFBDD /* mc taskforce mobile custom setting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38691CFA1C4BBE3300ECFBDD /* mc taskforce mobile custom setting */ = {
+			isa = PBXGroup;
+			children = (
+				38691D1A1C4BBE4D00ECFBDD /* JB4A SDK */,
+				38691CFB1C4BBE3300ECFBDD /* AppDelegate.swift */,
+				38691CFD1C4BBE3300ECFBDD /* ViewController.swift */,
+				38691CFF1C4BBE3300ECFBDD /* Main.storyboard */,
+				38691D021C4BBE3300ECFBDD /* Assets.xcassets */,
+				38691D041C4BBE3300ECFBDD /* LaunchScreen.storyboard */,
+				38691D071C4BBE3300ECFBDD /* Info.plist */,
+				38691D1B1C4BC08700ECFBDD /* BridgingHeader.h */,
+			);
+			path = "mc taskforce mobile custom setting";
+			sourceTree = "<group>";
+		};
+		38691D1A1C4BBE4D00ECFBDD /* JB4A SDK */ = {
+			isa = PBXGroup;
+			children = (
+				38691D171C4BBE4800ECFBDD /* libJB4ASDK-4.0.3.a */,
+				38691D181C4BBE4800ECFBDD /* PushConstants.h */,
+				38691D0D1C4BBE4800ECFBDD /* ETGenericUpdate.h */,
+				38691D0E1C4BBE4800ECFBDD /* ETKeyValueStore.h */,
+				38691D0F1C4BBE4800ECFBDD /* ETLandingPagePresenter.h */,
+				38691D101C4BBE4800ECFBDD /* ETLocationManager.h */,
+				38691D111C4BBE4800ECFBDD /* ETLocationUpdate.h */,
+				38691D121C4BBE4800ECFBDD /* ETMessage.h */,
+				38691D131C4BBE4800ECFBDD /* ETPush.h */,
+				38691D141C4BBE4800ECFBDD /* ETRegion.h */,
+				38691D151C4BBE4800ECFBDD /* ETSqliteHelper.h */,
+				38691D161C4BBE4800ECFBDD /* ExactTargetEnhancedPushDataSource.h */,
+			);
+			name = "JB4A SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38691CF71C4BBE3300ECFBDD /* mc taskforce mobile custom setting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38691D0A1C4BBE3300ECFBDD /* Build configuration list for PBXNativeTarget "mc taskforce mobile custom setting" */;
+			buildPhases = (
+				38691CF41C4BBE3300ECFBDD /* Sources */,
+				38691CF51C4BBE3300ECFBDD /* Frameworks */,
+				38691CF61C4BBE3300ECFBDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mc taskforce mobile custom setting";
+			productName = "mc taskforce mobile custom setting";
+			productReference = 38691CF81C4BBE3300ECFBDD /* mc taskforce mobile custom setting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38691CF01C4BBE3300ECFBDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = salesforce.com;
+				TargetAttributes = {
+					38691CF71C4BBE3300ECFBDD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LN9P8EM72H;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 38691CF31C4BBE3300ECFBDD /* Build configuration list for PBXProject "mc taskforce mobile custom setting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38691CEF1C4BBE3300ECFBDD;
+			productRefGroup = 38691CF91C4BBE3300ECFBDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38691CF71C4BBE3300ECFBDD /* mc taskforce mobile custom setting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38691CF61C4BBE3300ECFBDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38691D061C4BBE3300ECFBDD /* LaunchScreen.storyboard in Resources */,
+				38691D031C4BBE3300ECFBDD /* Assets.xcassets in Resources */,
+				38691D011C4BBE3300ECFBDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38691CF41C4BBE3300ECFBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38691CFE1C4BBE3300ECFBDD /* ViewController.swift in Sources */,
+				38691CFC1C4BBE3300ECFBDD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38691CFF1C4BBE3300ECFBDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38691D001C4BBE3300ECFBDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38691D041C4BBE3300ECFBDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38691D051C4BBE3300ECFBDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38691D081C4BBE3300ECFBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38691D091C4BBE3300ECFBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38691D0B1C4BBE3300ECFBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "mc taskforce mobile custom setting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mc",
+					taskforce,
+					mobile,
+					custom,
+					setting,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salesforce.mc-taskforce-mobile-custom-setting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/BridgingHeader.h";
+			};
+			name = Debug;
+		};
+		38691D0C1C4BBE3300ECFBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "mc taskforce mobile custom setting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mc",
+					taskforce,
+					mobile,
+					custom,
+					setting,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salesforce.mc-taskforce-mobile-custom-setting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/BridgingHeader.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38691CF31C4BBE3300ECFBDD /* Build configuration list for PBXProject "mc taskforce mobile custom setting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38691D081C4BBE3300ECFBDD /* Debug */,
+				38691D091C4BBE3300ECFBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38691D0A1C4BBE3300ECFBDD /* Build configuration list for PBXNativeTarget "mc taskforce mobile custom setting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38691D0B1C4BBE3300ECFBDD /* Debug */,
+				38691D0C1C4BBE3300ECFBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38691CF01C4BBE3300ECFBDD /* Project object */;
+}
